@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập layout 2</title>
+    <style>
+        body {
+            min-height: 600px;
+            margin: 0;
+            font-family: tehona, serif;
+        }
+
+        h1 {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        #contain {
+            width: 1200px;
+            margin: auto;
+            min-height: 400px;
+            border: 1px solid black;
+        }
+
+        #contain header {
+            height: 100px;
+            border: 1px solid black;
+        }
+
+        #contain nav {
+            height: 85px;
+            border: 1px solid black;
+        }
+
+        #contain #content {
+            overflow: auto;
+        }
+
+        #contain #content #left-content {
+            width: 25%;
+            height: 300px;
+            float: left;
+            clear: right;
+            border: 1px solid black;
+            box-sizing: border-box;
+            padding: 85px;
+        }
+
+        #contain #content #right-content {
+            width: 75%;
+            height: 300px;
+            float: right;
+            clear: right;
+            border: 1px solid black;
+            box-sizing: border-box;
+            padding: 85px 200px 0px 0px;
+        }
+
+        #contain footer {
+            height: 60px;
+            border: 1px solid black;
+            padding: 60px;
+        }
+    </style>
+</head>
+
+<body>
+<div id="contain">
+    <header>
+        <h1>Header Section</h1>
+    </header>
+    <nav>
+        <h1>Navigation Bar</h1>
+    </nav>
+    <section id="content">
+        <div id="left-content">
+            <h1>Index</h1>
+
+        </div>
+        <div id="right-content">
+            <h1>Content section</h1>
+        </div>
+    </section>
+
+    <footer>
+        <h1>Footer Section</h1>
+    </footer>
+</div>
+</body>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập layout 3</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'arial';
+            color: white;
+        }
+
+        h5 {
+            font-size: 40px;
+            margin: 0;
+            padding: 20px 0px 0px 0px;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        #contain {
+            width: 1200px;
+            margin: auto;
+            min-height: 400px
+        }
+
+        #contain header {
+            height: 120px;
+            margin: 0px 0px 30px 0px;
+            border: 1px solid black;
+            background: #C4996C;
+        }
+
+        #contain header h3 {
+            margin: 3px;
+        }
+
+        #contain nav {
+            height: 400px;
+            margin: 0px 0px 30px 0px;
+            border: 1px solid black;
+            background: #A8A9AD;
+            box-sizing: border-box;
+        }
+
+        #contain nav h5 {
+            font-size: 60px;
+            padding: 120px 0px 20px 0px;
+        }
+
+        #contain nav h3 {
+            margin: 50px;
+        }
+
+        #contain #content {
+            overflow: auto;
+            margin: 0px 0px 30px 0px;
+        }
+
+        #contain #content h5 {
+            text-align: center;
+            font-size: 50px;
+            margin: 40px;
+            color: black;
+        }
+
+        #contain #content .item {
+            height: 250px;
+            width: 200px;
+            float: left;
+            clear: right;
+            border: 2px solid black;
+            margin: 30px;
+            padding: 18px;
+            background: #A8A9AD;
+        }
+
+        #contain #content .item p {
+            font-size: 35px;
+            text-align: center;
+            padding: 50px 0px 0px 0px;
+        }
+
+        #contain footer {
+            height: 120px;
+            border: 1px solid black;
+            background: #115D7F;
+        }
+
+        #contain footer h5 {
+            margin: 0;
+        }
+
+        #contain footer h3 {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+<div id="contain">
+    <header>
+        <h5>Header section</h5>
+        <h3>900px-120px</h3>
+
+    </header>
+    <nav>
+        <h5>Company Image</h5>
+        <h3>900px-400px</h3>
+        <h3>designed by - gdatamart.com</h3>
+    </nav>
+    <section id="content">
+        <h5>Our Services</h5>
+
+        <h3 class="item">
+            <p>Servces <br><br> Width:180px <br> height:220px</p>
+        </h3>
+        <h3 class="item">
+            <p>Servces</p>
+        </h3>
+        <h3 class="item">
+            <p>Servces</p>
+        </h3>
+        <h3 class="item">
+            <p>Servces</p>
+        </h3>
+        <h3 class="item">
+            <p></p>
+        </h3>
+        <h3 class="item">
+            <p></p>
+        </h3>
+        <h3class="item">
+        </h3>
+        <h3 class="item"></h3>
+        </h3>
+        <h3 class="item"></h3>
+    </section>
+
+    <footer>
+        <h5>Footer section</h5>
+        <h3>900px-120px</h3>
+    </footer>
+</div>
+</body>
+
+</html>
